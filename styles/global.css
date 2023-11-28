@@ -25,6 +25,11 @@ blockquote {
   padding: 0;
 }
 
+address {
+  font-style: normal;
+  display: inline;
+}
+
 a {
   color: inherit;
 }
