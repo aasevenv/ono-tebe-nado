@@ -309,5 +309,69 @@
 /* footer section */
 
 .footer {
-    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 180px 50px 90px 50px;
+
+}
+
+.footer__address {
+    align-self: flex-start;
+    justify-self: flex-end;
+    width: 240px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 135%;
+    letter-spacing: 0.2px;
+}
+
+/* footer center menu */
+
+/* .footer__menu {
+
+} */
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+/* .footer__menu-list-item {
+
+} */
+
+.footer__menu-link {
+    text-decoration: underline;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+/* footer social */
+
+.footer__social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 240px;
+}
+
+/* .footer__social-list-item {
+
+} */
+
+/* .footer__social-link {
+
+} */
+
+.footer__social-icon {
+    max-height: 48px;
 }
