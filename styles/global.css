@@ -9,6 +9,7 @@ body {
   max-width: 1440px;
   margin: auto;
   font-family: Raleway, sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -24,12 +25,10 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
-  display: inline;
 }
 
 address {
   font-style: normal;
-  display: inline;
 }
 
 a {
